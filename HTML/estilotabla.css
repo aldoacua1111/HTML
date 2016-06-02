@@ -1,0 +1,30 @@
+*{
+
+	font-family: helvetica Neue;
+	font-weight: lighter;
+}
+
+
+h1{
+
+	color:#1d1d1d;
+	text-align: center;
+}
+
+thead{
+
+	color:green;
+	background-color:#3FA6FF ;
+	border-radius: 5px;
+
+
+}
+
+tbody{
+
+	color:white;
+	text-align: center;
+	background-color: #3FA6FF;
+	border-radius: 5px;
+
+}

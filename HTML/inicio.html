@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>inicio</title>
+	
+
+</head>
+<body>
+	<header> Encabezado </header>
+	<nav>
+		<ul>
+			<li>inicio</li>
+			<li>contacto</li>
+		</ul>
+	</nav>
+
+	<article>
+		Estas en el articulo  principal.
+	</article>
+
+	<section>
+		<article>aqui va el articulo</article>
+
+	</section>
+
+	<article>aqui va el articulo</article>
+
+	<aside>
+		cosas que no son la idea principal
+	</aside>
+	<hgroup>
+		<h1>bienvenido</h1>
+		<h2>html5</h2>
+	</hgroup>
+
+	<hgroup>
+		<h3>curso bootcamp</h3>
+		<h4>hgroup</h4>
+
+	</hgroup>
+
+	<canvas  id="micanvas" wiidth="300" height="400"> tu navegador no puede mostrara este contenido </canvas>
+	<script type0"text/javassript" charset="utf-8">
+
+	var canvas = document.getElementById("micanvas");
+	var ctx = canvas.getContext("2d");
+	ctx.fillRect(0,0,20,20);
+
+	</script>
+
+	<audio controls="controls" autoplay="autoplay" loop="loop" preload="none">
+	 <source src="ruta.mp3" type="audio/mp3"/>
+	 <source src="ruta.ogg" type="audio/ogg"/>
+	 tu navegador no es compatible
+	</audio>
+
+	<input list="paginas"/>
+	<datalist id="paginas">
+		<option value="codigo"/>
+		<option value="html5"/>
+	</datalist>
+	
+	<details open >
+		<summary>codigo details</summary>
+		aqui van los detalles.
+	</details>	
+
+	<p>aqui <figure>
+		<img src="SKATE.jpeg" alt=""/>
+		<figcaption>logo skate</figcaption>
+	</figure>va el contenido</p>
+
+
+	<p> apliacion etiqueta <mark style="background-color:red;">mark</mark> </p>
+
+
+	<p>temperatura</p>
+	<meter value="5" max="10" min="0"  high="35" low="10" optimum=""></meter>
+
+	<form oninput = "resultado.value=parseInt(x.value)+ parseInt(y.value)">
+		<input type="number" name="x"/>
+		<input type="number" name="y"/>
+		<output name="resultado" for ="x y"> </output>
+	</form>
+
+	<progress value="50" max="100">el navegador no soporte esta etiqueta</progress>
+	<progress value="10" max="100"></progress>
+
+
+
+
+
+
+</body>
+</html>
